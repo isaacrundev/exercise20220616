@@ -1,3 +1,4 @@
+
 public class Cal {
     private double num1;
     private double num2;
@@ -34,11 +35,13 @@ public class Cal {
     }
 
     public void divide(Double num1, Double num2) {
-        if (num2.equals(0.0)) {
-            System.out.println("Can't divide by zero");
-        } else {
-            double result = num1 / num2;
-            System.out.printf("%.0f%s%.0f%s%.2f%n", num1, "/", num2, "=", result);
-        }
+
+        // if (num2.equals(0.0)) {
+        // System.out.println("Can't divide by zero");
+        // } else {
+        double result = num1 / num2;
+        System.out.printf("%.0f%s%.0f%s%.2f%n", num1, "/", num2, "=", result);
+        // }
+
     }
 }
